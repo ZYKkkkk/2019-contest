@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./styles/main.css">
+  </head>
+  <body>
+    <nav class="meau">
+      <section class="game_name">
+        经典推箱子
+      </section>
+      <section class="meau_main" id="meau_main">
+        <section class="meau_list">
+          <div class = "mode">
+            <span>当前模式:</span>
+            <span id="mode">简单</span>
+          </div>
+          <div class="check">
+            <span>关卡: </span>
+            <span id="check_no"> 1 </span>
+          </div>
+          <div class="choose">
+            <span class="choose_check">关卡选择
+              <div class="check_list">
+                <div class="easy_game_list">
+                  <div class="title">
+                    简单
+                  </div>
+                  <ul class="list" id="easy_list">
+                    <li class="item">1</li>
+                    <li class="item">2</li>
+                    <li class="item">3</li>
+                    <li class="item">4</li>
+                    <li class="item">5</li>
+                    <li class="item">6</li>
+                  </ul>
+                </div>
+                <div class="hard_game_list">
+                  <div class="title">
+                    困难
+                  </div>
+                  <ul class="list" id="hard_list">
+                    <li class="item">7</li>
+                    <li class="item">8</li>
+                    <li class="item">9</li>
+                    <li class="item">10</li>
+                    <li class="item">11</li>
+                    <li class="item">12</li>
+                  </ul>
+                </div>
+            </span>
+          </div>
+
+          </div>
+        </section>
+      </section>
+    </nav>
+    <section class="game_box">
+        <div class="canvas_box">
+          <canvas id="canvas" width="400" height="400"></canvas>
+        </div>
+    </section>
+    <section class="help_list">
+      <div class="retry"  id="refresh">
+        <span class="retry_text">重试</span>
+      </div>
+      <div class="totle"  id="totle">
+        <span class="computed_totle">总步数： <span class="computed_number" id="computed_number">0</span></span>
+      </div>
+      <div class="how_play">
+        <div class="play_content">
+          <div class="title">
+            控制:
+          </div>
+          <div class="play_with">
+            <span class="play_with_wasd"></span>
+            <span>或</span>
+            <span class="play_with_urdl"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="img_box">
+      <img src="./images/wall.png" id="wall" alt="">
+      <img src="./images/bg.png" id="bg" alt="">
+      <img src="./images/point.png" id="point" alt="">
+      <img src="./images/red.png" id="red" alt="">
+      <img src="./images/yellow.png" id="yellow" alt="">
+      <img src="./images/down.png" id="down" alt="">
+      <img src="./images/white.png" id="white" alt="">
+    </section>
+    <script src="./js/map.js" charset="utf-8"></script>
+    <script src="./js/main.js" charset="utf-8"></script>
+  </body>
+</html>
