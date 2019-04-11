@@ -7,11 +7,6 @@
   url('//at.alicdn.com/t/font_1128375_8pw27m3hj7f.ttf') format('truetype'),
   url('//at.alicdn.com/t/font_1128375_8pw27m3hj7f.svg#iconfont') format('svg');
 }
-*{
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
 .img_box{
   display: none;
 }
